@@ -1,0 +1,2 @@
+er
+cat,dog,house,car,book,computer,dogich,phone,tree,sky,sapog,sun,moon,star,ocean,river,mountain,beach,flower,bird,fish,elephant,tiger,lion,giraffe,zebra,monkey,snake,butterfly,spider,ant
