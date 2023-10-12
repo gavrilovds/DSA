@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
-project(DSA)
+project(prac5)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DSA main.cpp)
+add_executable(prac5 main.cpp)

@@ -8,7 +8,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: DSA
+# Project: prac5
 # Configurations: Debug
 # =============================================================================
 
@@ -36,44 +36,44 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/mac/Code/СИАОД/DSA/cmake-build-debug/
+cmake_ninja_workdir = /Users/mac/Code/СИАОД/prac5/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target DSA
+# Object build statements for EXECUTABLE target prac5
 
 
 #############################################
-# Order-only phony target for DSA
+# Order-only phony target for prac5
 
-build cmake_object_order_depends_target_DSA: phony || CMakeFiles/DSA.dir
+build cmake_object_order_depends_target_prac5: phony || CMakeFiles/prac5.dir
 
-build CMakeFiles/DSA.dir/main.cpp.o: CXX_COMPILER__DSA_Debug /Users/mac/Code/СИАОД/DSA/main.cpp || cmake_object_order_depends_target_DSA
-  DEP_FILE = CMakeFiles/DSA.dir/main.cpp.o.d
+build CMakeFiles/prac5.dir/main.cpp.o: CXX_COMPILER__prac5_Debug /Users/mac/Code/СИАОД/prac5/main.cpp || cmake_object_order_depends_target_prac5
+  DEP_FILE = CMakeFiles/prac5.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/DSA.dir
-  OBJECT_FILE_DIR = CMakeFiles/DSA.dir
+  OBJECT_DIR = CMakeFiles/prac5.dir
+  OBJECT_FILE_DIR = CMakeFiles/prac5.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DSA
+# Link build statements for EXECUTABLE target prac5
 
 
 #############################################
-# Link the executable DSA
+# Link the executable prac5
 
-build DSA: CXX_EXECUTABLE_LINKER__DSA_Debug CMakeFiles/DSA.dir/main.cpp.o
+build prac5: CXX_EXECUTABLE_LINKER__prac5_Debug CMakeFiles/prac5.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/DSA.dir
+  OBJECT_DIR = CMakeFiles/prac5.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = DSA
-  TARGET_PDB = DSA.dbg
+  TARGET_FILE = prac5
+  TARGET_PDB = prac5.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mac/Code/СИАОД/DSA/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/mac/Code/СИАОД/prac5/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -84,7 +84,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mac/Code/СИАОД/DSA/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/mac/Code/СИАОД/DSA -B/Users/mac/Code/СИАОД/DSA/cmake-build-debug
+  COMMAND = cd /Users/mac/Code/СИАОД/prac5/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/mac/Code/СИАОД/prac5 -B/Users/mac/Code/СИАОД/prac5/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -100,9 +100,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/mac/Code/СИАОД/DSA/cmake-build-debug
+# Folder: /Users/mac/Code/СИАОД/prac5/cmake-build-debug
 
-build all: phony DSA
+build all: phony prac5
 
 # =============================================================================
 # Built-in targets
